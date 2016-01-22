@@ -10,17 +10,32 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/food.css" rel="stylesheet">
+
+    <style>
+        h1,
+        p {
+            text-align: center;
+        }
+    </style>
 
 </head>
 
 <body>
-    <h1>Chicago Food Inspections</h1>
-    <p>
-        Enter in a restaurant to find out about its latest food inspection
-    </p>
-    <input type="text" class="form-control" id="name" placeholder="Restaurant Name">
-    <button class="btn btn-default">Submit</button>
+    <div class="container">
+        <h1 style="color:blue;">Chicago Food Inspections</h1>
+        <p>
+            Enter in a restaurant to find out about its latest food inspection
+        </p>
+        <div class="col-xs-12 col-sm-9">
+           <input type="text" class="form-control" id="name" placeholder="Restaurant Name">     
+        </div>
+        <div class="col-xs-12 col-sm-3">
+        <button class="btn btn-warning">Submit</button>
+        </div>
 
+        
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
